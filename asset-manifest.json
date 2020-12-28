@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ArsenalSoccerFansPage/static/css/main.65f5824e.chunk.css",
-    "main.js": "/ArsenalSoccerFansPage/static/js/main.6d07d8cb.chunk.js",
-    "main.js.map": "/ArsenalSoccerFansPage/static/js/main.6d07d8cb.chunk.js.map",
+    "main.js": "/ArsenalSoccerFansPage/static/js/main.59391291.chunk.js",
+    "main.js.map": "/ArsenalSoccerFansPage/static/js/main.59391291.chunk.js.map",
     "runtime-main.js": "/ArsenalSoccerFansPage/static/js/runtime-main.f4530291.js",
     "runtime-main.js.map": "/ArsenalSoccerFansPage/static/js/runtime-main.f4530291.js.map",
     "static/js/2.da574b90.chunk.js": "/ArsenalSoccerFansPage/static/js/2.da574b90.chunk.js",
     "static/js/2.da574b90.chunk.js.map": "/ArsenalSoccerFansPage/static/js/2.da574b90.chunk.js.map",
     "index.html": "/ArsenalSoccerFansPage/index.html",
-    "precache-manifest.9dd32b6b50368bef3cd535c6cff4ba79.js": "/ArsenalSoccerFansPage/precache-manifest.9dd32b6b50368bef3cd535c6cff4ba79.js",
+    "precache-manifest.0483753e7e0880645710fd71ce360685.js": "/ArsenalSoccerFansPage/precache-manifest.0483753e7e0880645710fd71ce360685.js",
     "service-worker.js": "/ArsenalSoccerFansPage/service-worker.js",
     "static/css/main.65f5824e.chunk.css.map": "/ArsenalSoccerFansPage/static/css/main.65f5824e.chunk.css.map",
     "static/js/2.da574b90.chunk.js.LICENSE.txt": "/ArsenalSoccerFansPage/static/js/2.da574b90.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f4530291.js",
     "static/js/2.da574b90.chunk.js",
     "static/css/main.65f5824e.chunk.css",
-    "static/js/main.6d07d8cb.chunk.js"
+    "static/js/main.59391291.chunk.js"
   ]
 }
