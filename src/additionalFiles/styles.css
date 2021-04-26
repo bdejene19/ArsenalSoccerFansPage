@@ -249,6 +249,7 @@ button:hover {
     width: 10vw;
     height: 20vh;
     padding-left: 10%;
+    padding-top: 5%;
  
 }
 
@@ -257,8 +258,6 @@ button:hover {
 .photo-tenure-container {
     height: auto;
     width: 12.5vw;
-    margin-left: 19vw;
-    margin-top: -3vh;
     color: goldenrod;
 }
 
@@ -336,6 +335,8 @@ button:hover {
 .HL-video-container {
     height: 26vh;
     width: 32vw;
+    margin-left: 3vw;
+
 }
 
 .HL-video {
@@ -417,6 +418,9 @@ button:hover {
 
 
 .fade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -443,18 +447,19 @@ button:hover {
     color: goldenrod;
 }
 
+.youthPlayer-onDisplay {
+    height: 55vh;
+}
 @keyframes change-HL-right {
     from {transform: translateX(0);}
     to {transform: translateX(-100%)}
 }
 
-.youth-player-container {
-    margin-left: 2%;
-    margin-top: -3vh;
-    overflow: hidden;
-    height: 60vh;
+.youth-content {
+    margin-top: -5vh;
+    padding-left: 5%;
+    padding-bottom: 2vh;
 }
-
 .youth-bio {
     text-align: right;
     color: goldenrod;
@@ -477,9 +482,19 @@ button:hover {
     height: fit-content;
 }
 
+.youth-display-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+/* .youth-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr;
+} */
 .youth-HL-video {
-    margin-left: 15vw;
-    margin-top: -65%;
+    width: 18vw;
     height: 30vh ;
     border: solid gold;
     text-align: center;
@@ -490,6 +505,8 @@ button:hover {
     height: 5vh;
     padding-top: 5%;
 }
+
+
 
 .HL-video:hover {
     width: 15vw;
@@ -506,7 +523,10 @@ button:hover {
 
 
 .arteta-quotes {
-    width: 15vw;
-    border: solid black;
+    width: 31vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: -3vh;
 }
 

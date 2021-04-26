@@ -1,3 +1,4 @@
+import React from 'react';
 const YoungPlayers = [
     {
         place: 1,
@@ -49,3 +50,4 @@ const YoungPlayers = [
     },
 ]
 
+export default YoungPlayers;

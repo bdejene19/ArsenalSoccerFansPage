@@ -12,7 +12,6 @@ import HLVideoComponent from './additionalFiles/HLVideoComponent'
 import EmiratesHLVids from './additionalFiles/EmiratesHLVids'
 import YouthPlayerComponent from './additionalFiles/YouthPlayerComponent'
 import YoungPlayers from './additionalFiles/YoungPlayers'
-import TransferRumourComponent from './additionalFiles/TransferRumourComponent'
 
 class App extends React.Component {
   constructor() {
@@ -192,7 +191,6 @@ class App extends React.Component {
             <h2 className='category-header'>Previous Managers</h2>
             {managerOnDisplay}
             <div className='prevManagers'>
-
               <div className='button-container'>
                 <button className='HL-left' onClick={() => this.handleClick(-1)}></button>
                   {managerDots}
@@ -257,54 +255,49 @@ class App extends React.Component {
 
 
       <div className="container">
-        {/*<div className="transfers-container">
-          <h2 className='category-header'>Transfer Speculation</h2>
-          
-          {/*put in transfer news data}
-          <TransferRumourComponent player='Aubameyang' inOut='https://www.thesportreview.com/wp-content/uploads/grapevine-facebook.jpg' ></TransferRumourComponent>
-    </div>*/}
-
         <div className='future-manager'>
           <h2 className='category-header'>Manager for the foreseable future</h2>
-          {/*<div className='currManagerAbout'>
-           <div className='arteta-quotes'>
-           <h3 style={{color: 'red', marginTop: -17, marginLeft: 5}}>Mikel Arteta</h3>
-              <p>“He was a leader, and he has a good passion for the game and he knows the club well, he knows what is important at the club and he was captain of the club. Why not?"
-                 <br></br>- Arsene Wenger</p>
+          <div className='currManagerAbout'>
+            <div className='arteta-quotes'>
+              <div style={{marginLeft: 10}}>
+                <h3 style={{color: 'red', marginLeft: 5}}>Mikel Arteta</h3>
+                  <p>"He’s a young manager, he’s 37, so he is so young but he has experience already to handle big players and teams and when it’s going to happen, it’s going to happen." 
+                    <br></br> - Pep Guardiola 
+                </p>
 
-              {/*<p>"He’s a young manager, he’s 37, so he is so young but he has experience already to handle big players and teams and when it’s going to happen, it’s going to happen." 
-                <br></br> - Pep Guardiola 
-  </p>
-  </div>*/}
-            <div className="photo-tenure-container">
-                <img src='http://thenigerian.news/wp-content/uploads/2019/12/mikel-arteta-arsenal-appoint-ex-captain-as-head-coach.jpg' alt='Arteta' className="manager-photo"></img>
-                <h3 className='tenure'>2020-Present</h3>
-            </div>
-         
-
+              </div>
+              
+              <div className="photo-tenure-container">
+                  <img src='https://resources.premierleague.com/photos/2019/12/20/9d9a7aae-5e85-4cc0-abba-5ee3e4b4bd4b/arteta-appointed-ars-head-coach.png?width=860&height=573' alt='Arteta' className="manager-photo"></img>
+                  <h3 className='tenure'>2020-Present</h3>
+              </div>
+          </div>
         </div>
        
-        <div className='youth-arsenal-container '>
           <h2 className='category-header' >One's to keep your eyes on...</h2>
-          {/*put in youth talents (e.g. saka, martinelli, etc)*/}
-          {currYouth}
+          <div className='youthPlayer-onDisplay'>
+            {currYouth}
+
+
+          </div>
+          <br></br>
           <div className='button-container' style={{marginTop: -40}}>
             <button className="HL-left" onClick={()=> this.youthClick(-1)}></button>
             {youthDots}
             <button className="HL-right" onClick={()=> this.youthClick(1)}></button>
           </div>
-        </div>
         
 
         <div className="overlay">
-          <img className="bg-image" src="http://www.clipartsuggest.com/images/74/man-in-suit-and-hat-silhouette-man-silhouette-1hjB9Q-clipart.jpg" alt="future"></img>
+          <img className="bg-image" src="https://besthqwallpapers.com/Uploads/18-11-2020/145358/thumb2-4k-bukayo-saka-grunge-art-english-footballers-arsenal-fc.jpg" alt="future"></img>
         </div>
 
         <div className="overlay2">
-          <img className="bg-second-half" src="http://www.clipartsuggest.com/images/74/man-in-suit-and-hat-silhouette-man-silhouette-1hjB9Q-clipart.jpg" alt="future"></img>
+          <img className="bg-second-half" src="https://besthqwallpapers.com/Uploads/18-11-2020/145358/thumb2-4k-bukayo-saka-grunge-art-english-footballers-arsenal-fc.jpg" alt="future"></img>
         </div>
       </div>
     </div> 
+    </div>
     )
   }
 }
