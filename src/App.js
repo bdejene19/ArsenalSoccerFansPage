@@ -289,11 +289,11 @@ class App extends React.Component {
         
 
         <div className="overlay">
-          <img className="bg-image" src="https://besthqwallpapers.com/Uploads/18-11-2020/145358/thumb2-4k-bukayo-saka-grunge-art-english-footballers-arsenal-fc.jpg" alt="future"></img>
+          <img className="bg-image" src="https://besthqwallpapers.com/Uploads/18-11-2020/145358/thumb2-4k-bukayo-saka-grunge-art-english-footballers-arsenal-fc.jpg" alt="future bukayo saka"></img>
         </div>
 
         <div className="overlay2">
-          <img className="bg-second-half" src="https://besthqwallpapers.com/Uploads/18-11-2020/145358/thumb2-4k-bukayo-saka-grunge-art-english-footballers-arsenal-fc.jpg" alt="future"></img>
+          <img className="bg-second-half" src="https://besthqwallpapers.com/Uploads/18-11-2020/145358/thumb2-4k-bukayo-saka-grunge-art-english-footballers-arsenal-fc.jpg" alt="future bukayo saka"></img>
         </div>
       </div>
     </div> 
