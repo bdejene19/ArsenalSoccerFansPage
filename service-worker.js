@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ArsenalSoccerFansPage/precache-manifest.0483753e7e0880645710fd71ce360685.js"
+  "/ArsenalSoccerFansPage/precache-manifest.d7246e3593c636c3fac25f255acd8068.js"
 );
 
 self.addEventListener('message', (event) => {

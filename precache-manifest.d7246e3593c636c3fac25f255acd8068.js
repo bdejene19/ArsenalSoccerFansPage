@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d3792b43977667732f7dba25d2424bf",
+    "revision": "1dab5fdb863585f454543477310a857f",
     "url": "/ArsenalSoccerFansPage/index.html"
   },
   {
-    "revision": "0f146e08282c7f2dbede",
+    "revision": "c9f9efe391245f9a347a",
     "url": "/ArsenalSoccerFansPage/static/css/main.65f5824e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ArsenalSoccerFansPage/static/js/2.da574b90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0f146e08282c7f2dbede",
-    "url": "/ArsenalSoccerFansPage/static/js/main.59391291.chunk.js"
+    "revision": "c9f9efe391245f9a347a",
+    "url": "/ArsenalSoccerFansPage/static/js/main.1ad8630f.chunk.js"
   },
   {
     "revision": "e263379ba3cab8411b36",
